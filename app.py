@@ -36,17 +36,3 @@ product_sales = (
 
 st.bar_chart(product_sales)
 
-st.subheader("Business Insights")
-
-st.success(
-    f"""
-    Total Revenue: ${total_revenue}
-
-    Best Product: {top_product}
-
-    Average Revenue: ${avg_revenue:.2f}
-
-    Recommendation:
-    Focus marketing on {top_product}.
-    """
-)
