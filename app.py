@@ -33,6 +33,3 @@ product_sales = (
     df.groupby("Product")["Revenue"]
     .sum()
 )
-
-st.bar_chart(product_sales)
-
